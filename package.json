@@ -1,0 +1,19 @@
+{
+  "name": "mentor-matchup",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/nodemon src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "0.16.1",
+    "dotenv": "4.0.0",
+    "express": "4.15.2",
+    "nodemon": "1.11.0",
+    "sqlite3": "3.1.8"
+  }
+}
